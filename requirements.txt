@@ -2,3 +2,5 @@ telebot
 gunicorn
 pymongo
 requests==2.26.0
+opencv-python
+mediapipe
