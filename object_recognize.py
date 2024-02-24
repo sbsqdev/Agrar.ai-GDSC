@@ -35,7 +35,7 @@ fs = GridFS(db)
 
 url = "https://autocap-2djjl6ol5q-ew.a.run.app/"
 
-token_bot = "6499675235:AAFXizHfWphpAdGcGmxrZaOCuoj7xln7Oe8"#os.environ.get('bot_token')
+token_bot = os.environ('TELEBOT_CAP_API')
 bot = telebot.TeleBot(token_bot)
 
 chat_id = 0
@@ -100,7 +100,7 @@ def generate_image():
           elif money_count >= 50:
             caption = ''
           
-            asticaAPI_key = '37D1AB8B-5945-4EA6-82C5-FBF1E4F3A7BCE665BEB2-6862-4299-A7B4-CF037A608A84'#os.environ.get('astica_token')
+            asticaAPI_key = os.environ('ASTICA_KEY')
             asticaAPI_visionParams = 'gpt_detailed, describe_all, objects, faces'
             asticaAPI_modelVersion = '2.1_full'
             asticaAPI_gpt_prompt = ''
