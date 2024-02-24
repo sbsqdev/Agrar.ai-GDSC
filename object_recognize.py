@@ -26,7 +26,7 @@ app = Flask(__name__)
 def index():
     return 'Hello from PhotoCap!'
 
-client = MongoClient("mongodb+srv://capbot:ungeziefer@cluster0.rbxcsxi.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient(os.environ('MONGO_CAP_KEY'))
 db = client['CapBotDB']
 users = db['users']
 queue = db['queue']
