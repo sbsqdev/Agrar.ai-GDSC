@@ -1,43 +1,43 @@
 # Agrar.ai
 
-## Описание
+## Description
 
-Agrar.ai — это инновационный веб-сервис, предназначенный для упрощения процесса сбора и переработки мусора. Платформа позволяет пользователям легко подать заявку на вывоз мусора, а фермерам или приемщикам — эффективно его собирать и переработать. Одной из ключевых особенностей Agrar.ai является интеграция искусственного интеллекта, который с помощью камеры помогает пользователям определить тип мусора, облегчая его сортировку и последующую переработку.
+Agrar.ai is an innovative web service designed to simplify the garbage collection and recycling process. The platform allows users to easily apply for garbage collection and farmers or receivers to collect and recycle it efficiently. One of the key features of Agrar.ai is the integration of artificial intelligence that uses a camera to help users identify the type of garbage, making it easier to sort and then recycle.
 
-## Особенности
+## Features
 
-- **Подача заявки на вывоз мусора:** Удобный интерфейс для быстрой подачи заявок.
-- **Идентификация мусора с помощью ИИ:** Используйте камеру своего устройства, чтобы определить тип мусора.
-- **Связь между пользователями и переработчиками:** Платформа связывает людей, желающих избавиться от мусора, с фермерами и приемщиками, готовыми его забрать.
-- **Экологический вклад:** Вкладывайтесь в улучшение экологической ситуации, правильно утилизируя отходы.
+- **Applying for garbage collection:** User-friendly interface for quick application.
+- **Indentifying garbage with AI:** Use your device's camera to identify the type of garbage.
+- **Linking users and recyclers:** The platform connects people who want to dispose of garbage with farmers and receivers ready to pick it up.
+- **Environmental Contribution:** Contribute to the environment by disposing of waste properly.
 
-## Технологии
+## Technology
 
-- Frontend: HTML/CSS/JS для создания интерактивного пользовательского интерфейса.
-- Backend: Flask, MongoDB, PyTelegramBotAPI для обработки запросов и управления данными.
-- Искусственный интеллект: Google MediaPipe для распознавания типов мусора через камеру.
+- Frontend: HTML/CSS/JS to create an interactive user interface.
+- Backend: Flask, MongoDB, PyTelegramBotAPI for query processing and data management.
+- Artificial Intelligence: Google MediaPipe for recognizing garbage types via camera.
 
-## Установка
+## Installation
 
-Для начала работы с Agrar.ai клонируйте репозиторий и установите зависимости:
+To get started with Agrar.ai, clone the repository and install the dependencies:
 ```
 git clone https://github.com/sbsqdev/Agrar.ai-GDSC.git
 cd Agrar.ai-GDSC
 pip install -r requirements.txt
 ```
-Для запуска сервера введите:
+To start the server, enter:
 ```
 cd Agrar.ai-GDSC
 python main.py
 ````
 
-## Как внести вклад
+## How to contribute
 
-Мы открыты к вашим предложениям и вкладу в проект! Если вы хотите помочь улучшить Agrar.ai, напишите нам в [Telegram](https://t.me/sbsqcom)
+We are open to your suggestions and contributions to the project! If you want to help improve Agrar.ai, write to us at [Telegram](https://t.me/sbsqcom)
 
-## Контакты
+## Contact Us
 
-Если у вас есть вопросы или предложения, не стесняйтесь обращаться к нам:
+If you have any questions or suggestions, feel free to contact us:
 
 - SbsqDev - [Наш Telegram](https://t.me/sbsqcom)
 - Email: Sbsqcom@gmail.com
