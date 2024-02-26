@@ -35,9 +35,22 @@ python main.py
 
 We are open to your suggestions and contributions to the project! If you want to help improve Agrar.ai, write to us at [Telegram](https://t.me/sbsqcom)
 
+## Acknowledgements
+
+This project uses code from [Head Pose Estimation](https://github.com/yinguobing/head-pose-estimation) by [Yin Guobing](https://github.com/yinguobing), licensed under [MIT License].
+
+This project also incorporates code from [3D Object Detection with MediaPipe](https://github.com/ilhansevval/3D_Object_Detection_with_MediaPipe) by [İlhan Şevval](https://github.com/ilhansevval), licensed under [MIT License].
+
+### Technologies
+
+- Google MediaPipe: An open-source cross-platform, customizable ML solutions for live and streaming media.
+- PyTelegramBotAPI: An open-source library to develop Telegram bots using Python.
+- Google Cloud: A suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products.
+
+
 ## Contact Us
 
 If you have any questions or suggestions, feel free to contact us:
 
-- SbsqDev - [Наш Telegram](https://t.me/sbsqcom)
+- SbsqDev - [Our Telegram](https://t.me/sbsqcom)
 - Email: Sbsqcom@gmail.com
