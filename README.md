@@ -37,9 +37,7 @@ We are open to your suggestions and contributions to the project! If you want to
 
 ## Acknowledgements
 
-This project uses code from [Head Pose Estimation](https://github.com/yinguobing/head-pose-estimation) by [Yin Guobing](https://github.com/yinguobing), licensed under [MIT License].
-
-This project also incorporates code from [3D Object Detection with MediaPipe](https://github.com/ilhansevval/3D_Object_Detection_with_MediaPipe) by [İlhan Şevval](https://github.com/ilhansevval), licensed under [MIT License].
+This project incorporates code from [3D Object Detection with MediaPipe](https://github.com/ilhansevval/3D_Object_Detection_with_MediaPipe) by [İlhan Şevval](https://github.com/ilhansevval), licensed under [MIT License].
 
 ## Contact Us
 
