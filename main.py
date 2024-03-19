@@ -15,6 +15,10 @@ import os, io
 
 app = Flask(__name__) 
 
+@app.route('/')
+def index():
+    return 'Hello from Agrar.ai!'
+
 bot = telebot.TeleBot('6892718161:AAGjiTOOpwBXKqrMt7R98Ej9oRpDLSo6v8k')
 print("Connected!")
 
