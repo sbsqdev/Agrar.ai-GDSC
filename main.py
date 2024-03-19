@@ -19,10 +19,10 @@ app = Flask(__name__)
 def index():
     return 'Hello from Agrar.ai!'
 
-bot = telebot.TeleBot(os.environ('BOT_TOKEN')
+bot = telebot.TeleBot(os.environ('TELEBOT_API')
 print("Connected!")
 
-client = MongoClient(os.environ('MONGO_TOKEN')
+client = MongoClient(os.environ('MONGO_KEY')
 db = client['Composter']
 collection_regions = db['regions']
 collection_queue = db['queue']
