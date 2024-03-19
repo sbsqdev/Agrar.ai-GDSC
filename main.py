@@ -1,14 +1,24 @@
 import telebot
+from flask import Flask
 from telebot import types
 from pymongo import MongoClient
 import json
 from datetime import datetime
-import os
+import traceback
+import threading
+import time
+import requests
+import json
+import base64
+import os, io
 
-bot = telebot.TeleBot(os.environ('TELEBOT_API'))
+
+app = Flask(__name__) 
+
+bot = telebot.TeleBot('6892718161:AAGjiTOOpwBXKqrMt7R98Ej9oRpDLSo6v8k')
 print("Connected!")
 
-client = MongoClient(os.environ('MONGO_KEY'))
+client = MongoClient("mongodb+srv://capbot:ungeziefer@cluster0.rbxcsxi.mongodb.net/?retryWrites=true&w=majority")
 db = client['Composter']
 collection_regions = db['regions']
 collection_queue = db['queue']
@@ -250,5 +260,13 @@ def get_user_state(user_id):
   user_state = collection_queue.find_one({"user_id": user_id})["user_state"]
   return user_state
 
-if __name__ == "__main__":
-  bot.polling(none_stop=True)
+def run_app():
+  app.run(host='0.0.0.0', port=8080)
+def run_bot():
+    bot.polling(none_stop=True, interval=1)
+
+web_thread = threading.Thread(target=run_app)
+bot_thread = threading.Thread(target=run_bot)
+
+web_thread.start()
+bot_thread.start()
